@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.dam.chapas.opengl.GLSurfaceViewImpl
+        android:id="@+id/glSurfaceViewID"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/chutsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FB8C00"
+        android:text="3 chuts"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#00897B"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:text="2 - 3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/tiempoTurnoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/resultText"
+        android:background="#43A047"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:text="10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/tiempoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tiempoTurnoText"
+        android:background="#7CB342"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:text="10:00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/centerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Comienza el partido!"
+        android:textStyle="bold|italic"
+        android:textSize="56dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        android:textAppearance="@style/AppTheme" />
+</RelativeLayout>

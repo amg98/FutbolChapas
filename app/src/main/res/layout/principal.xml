@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/focilabda0013xcv"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/local_match"
+        android:contentDescription="@string/partido_local"
+        android:cropToPadding="false"
+        android:onClick="Ir_PartidoLocal"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:srcCompat="@drawable/local_match" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/partido_online"
+        android:contentDescription="@string/partido_online"
+        android:onClick="Ir_online"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/partido_online" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/creditos"
+        android:contentDescription="@string/creditos"
+        android:onClick="Ir_Creditos"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/creditos" />
+</RelativeLayout>

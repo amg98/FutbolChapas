@@ -1,0 +1,16 @@
+1- Pitido inicial
+2- TURNO DEL EQUIPO 1
+    5.1- Seleccionar chapa
+    5.2- Lanzar chapa seleccionada
+    - 3 acciones (timer de 20 segundos para las 3, sumando 2 segundos al realizar una acción, 5 minutos para cada parte)
+    - Si tiras a puerta o tocas el balón sin pasarlo (directa o indirectamente), se acaba el turno
+        * Para pasarlo el balón debe estar en un rango cerca de otra chapa y haberla tocado la última (se coloca el balón al lado de esa chapa)
+        * El pase como última jugada no cuenta como acción
+    - Gol: ir a paso 1.
+
+Estados:
+- InitState     -> Pitido inicial                       [OK]
+- ChoosingState -> Seleccionar chapa y tirarla          [OK]
+- GoalState     -> Si meten gol                         [OK]
+- EndState      -> Si se acaba una parte o el partido   [OK]
+

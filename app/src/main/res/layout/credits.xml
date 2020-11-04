@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/focilabda0013xcv">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Ir_Principal"
+        android:text="Volver" />
+
+    <ImageView
+        android:id="@+id/andres"
+        android:layout_width="240dp"
+        android:layout_height="260dp"
+        android:paddingLeft="30dp"
+        android:paddingTop = "20dp"
+        android:layout_below="@id/button2"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/andres" />
+
+    <ImageView
+        android:id="@+id/edu"
+        android:layout_width="240dp"
+        android:layout_height="260dp"
+        android:layout_below="@id/button2"
+        android:paddingTop="20dp"
+        android:layout_toRightOf="@id/andres"
+        android:src="@drawable/edu" />
+
+    <ImageView
+        android:id="@+id/nacho"
+        android:layout_width="240dp"
+        android:layout_height="260dp"
+        android:paddingTop="20dp"
+        android:layout_below="@id/button2"
+        android:layout_toRightOf="@id/edu"
+        android:src="@drawable/nacho" />
+
+    <TextView
+        android:id="@+id/andresText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/andres"
+        android:textSize="12pt"
+        android:paddingLeft="40dp"
+        android:text="Andrés Martínez"
+        android:textStyle="bold"
+        android:textAppearance="@style/AppTheme"/>
+
+    <TextView
+        android:id="@+id/eduText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edu"
+        android:textSize="12pt"
+        android:layout_centerHorizontal="true"
+        android:text="Eduardo Díaz"
+        android:textStyle="bold"
+        android:textAppearance="@style/AppTheme"/>
+
+    <TextView
+        android:id="@+id/nachoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nacho"
+        android:textSize="12pt"
+        android:layout_alignParentRight="true"
+        android:paddingRight="40dp"
+        android:text="Ignacio Gómez"
+        android:textStyle="bold"
+        android:textAppearance="@style/AppTheme"/>
+</RelativeLayout>

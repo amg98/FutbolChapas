@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Chapas</string>
+    <string name="hi_player">Bienvenido Jugador Chapero</string>
+    <string name="preparando_chapas">Preparando chapas...</string>
+    <string name="alpaca_chapas">Alpaca-Chapas</string>
+    <string name="imagen_alpaca">Imagen Alpaca</string>
+    <string name="autores">Andrés Martínez, Ignacio Gómez y Eduardo Díaz</string>
+    <string name="button">Button</string>
+    <string name="COMENZAR">Comenzar</string>
+    <string name="config_menu">Configuración</string>
+    <string name="info_menu">Información</string>
+    <string name="creditos">CREDITOS</string>
+    <string name="opciones">OPCIONES</string>
+    <string name="partido_online">Partido Online</string>
+    <string name="partido_local">Partido Local</string>
+    <string name="f_tbol_chapas">Fútbol Chapas</string>
+    <string name="activar_bluetooth">Activar Bluetooth</string>
+    <string name="buscar_jugador">Buscar Jugador</string>
+    <string name="iniciar_partida">Iniciar Partida</string>
+    <string name="pulsa_para_refrescar_la_lista">PULSA PARA REFRESCAR LA LISTA</string>
+    <string name="presiona_para_refrescar_la_lista">PRESIONA PARA REFRESCAR LA LISTA</string>
+    <string name="gif_de_bal_n">Gif de balón</string>
+</resources>
